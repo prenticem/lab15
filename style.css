@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(255, 230, 0);
+}
+
+.img {
+    max-width: 200px;
+    max-height: 200px;
+    border: solid 5px black;
+  }
+
+  .product-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.product-box {
+  width: 30%;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.duckImg {
+  border: dotted 5px black;
+  height: 200px;
+  width: 200px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+} 
